@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Portofolio</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav
+      class="w-full py-4 md:px-40 bg-white absolute font-inter top-0 left-0 z-10"
+      id="nav"
+    >
+      <div
+        class="flex justify-between items-center md:justify-between md:items-center"
+      >
+        <div class="ml-5 logo">
+          <a href="./home.html">
+            <p class="font-bold text-[#112B42] text-2xl">ZDN.</p>
+          </a>
+        </div>
+        <!-- hamburger -->
+        <div class="flex items-center justify-center px-4" id="">
+          <button
+            class="md:hidden py-3 px-4 mx-2 rounded-md block absolute right-4"
+            id="hamburger"
+            name="hamburger"
+            type="button"
+          >
+            <span
+              class="hamburger-line transition duration-300 ease-in-out origin-top-left"
+            ></span>
+            <span
+              class="hamburger-line transition duration-300 ease-in-out"
+            ></span>
+            <span
+              class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"
+            ></span>
+          </button>
+        </div>
+        <!-- navbar-list -->
+        <ul
+          class="mt-[338px] md:mt-0 md:flex md:items-center absolute md:static left-0 md:w-auto px-7 md:px-3 pl-7 md:pl-0 hidden rounded-lg shadow-md md:shadow-none bg-white md:bg-transparent"
+          id="nav-menu"
+        >
+          <li
+            class="px-4 text-1xl text-black font-medium hover:bg-slate-200 active:hover:text-white active:bg-[#112B42] active:hover:500 p-3 rounded-md transition duration-100 mx-[2px] my-2 md:my-0"
+          >
+            <a href="./home.html">Home</a>
+          </li>
+          <li
+            class="px-4 text-1xl text-black font-medium hover:bg-slate-200 active:hover:text-white active:bg-[#112B42] active:hover:500 p-3 rounded-md transition duration-100 mx-[2px] my-2 md:my-0"
+          >
+            <a href="./About.html">About</a>
+          </li>
+          <li
+            class="px-4 text-1xl text-black font-medium hover:bg-slate-200 active:hover:text-white active:bg-[#112B42] active:hover:500 p-3 rounded-md transition duration-100 mx-[2px] my-2 md:my-0"
+          >
+            <a href="./skill.html">Skill</a>
+          </li>
+          <li
+            class="px-4 text-1xl text-black font-medium hover:bg-slate-200 active:hover:text-white active:bg-[#112B42] active:hover:500 p-3 rounded-md transition duration-100 mx-[2px] my-2 md:my-0"
+          >
+            <a href="./project.html">Project</a>
+          </li>
+          <li
+            class="px-4 text-1xl text-black font-medium hover:bg-slate-200 active:hover:text-white active:bg-[#112B42] active:hover:500 p-3 rounded-md transition duration-100 mx-[2px] my-2 md:my-0"
+          >
+            <a href="./Contactme.html">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- about section -->
+    <section class="pt-32 px-6 md:py-0 md:px-40 md:pt-40 bg-white min-h-screen h-[200vh]">
+      <div class="grid grid-cols-2 gap-10" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="">
+          <img src="/img/potoku.svg" alt="" class="pl-0 h-[650px]">
+        </div>
+        <div class="pl-10">
+          <h1 class="font-bold text-5xl text-black absolute pl-2">About Me.</h1>
+          <img src="/img/garis bawah biru.png" alt="" class="w-64 h-4 mt-10 mb-10">
+          <div class="grid gap-4 font-[inter]">
+            <p class="text-black font-medium text-lg">Hi everyone my name is Zydan Naufal Arif. I'm a junior Frontend Web Developer. I live in Indonesia, Central Java, Semarang.</p>
+            <p class="text-black font-medium text-lg">I am currently 17 years old and i am a student at one of the vocational high school in Semarang, Indonesia. Precisely at SMK Negeri 8 Semarang, I am now majoring in software engineering.</p>
+            <p class="text-black font-medium text-lg">I have some experience in several programming languages, such as HTML, CSS and framework such as Tailwind and Javascript</p>
+            <p class="text-black font-medium text-lg">I've always been curious about the various technologies used in web development. The more I know, the greater my curiosity, making me eager to continue learning and developing my skills every day.</p>
+            <p class="text-black font-medium text-lg">I hope that I can continue to learn and develop so that I can contribute as a technology developer and can have a positive impact on the progress of the technology industry.</p>
+          </div>
+        </div> 
+      </div>
+
+      <hr class="h-1 mt-28 mb-36 bg-[#E5E2E2]">
+
+      <div class="flex justify-center mt-6">
+        <div class="">          
+          <h1 class="font-bold text-5xl text-black absolute pl-2">Education.</h1>
+          <img src="/img/garis bawah biru.png" alt="" class="w-72 h-4 mt-10">
+          <div class="mt-12">
+            <ul class="steps steps-vertical">
+              <li class="step step-accent text-black font-medium text-xl" data-content="●"><div class="tooltip tooltip-bottom"><p>SMP Negeri 15 Semarang</p></div></li>
+              <li class="step step-accent text-black font-medium text-xl" data-content="●"><div class="tooltip tooltip-bottom"><p>SMK Negeri 8 Semarang</p></div></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer bg-[#D9D9D9] footer-center bottom-0 h-16">
+      <div class="flex justify-center">
+        <p class="text-black font-normal font-[inter]">Copyright© - 2023 made by / zydanAriff</p>
+      </div>
+    </footer>
+    
+    <script src="/public/app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

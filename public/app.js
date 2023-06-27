@@ -8,7 +8,7 @@ hamburger.addEventListener('click', function() {
 })
 
 //navbar transparant
-window.onscroll = function() {
+window.onscroll = function() { //function expresion
     const nav = document.querySelector('nav');
     const fixedNav = nav.offsetTop;
 

@@ -4,13 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>Portofolio</title>
   </head>
   <body class="bg-white h-screen">
     <!-- navbar -->
-    <nav class="w-full py-4 md:px-40 bg-white absolute font-inter top-0 left-0 z-10" id="nav">
-      <div class="flex justify-between items-center md:justify-between md:items-center">
+    <nav
+      class="w-full py-4 md:px-40 bg-white absolute font-inter top-0 left-0 z-10"
+      id="nav"
+    >
+      <div
+        class="flex justify-between items-center md:justify-between md:items-center"
+      >
         <div class="ml-5 logo">
           <a href="./home.html">
             <p class="font-bold text-[#112B42] text-2xl">ZDN.</p>
@@ -18,28 +23,51 @@
         </div>
         <!-- hamburger -->
         <div class="flex items-center justify-center px-4" id="">
-          <button class="md:hidden py-3 px-4 mx-2 rounded-md block absolute right-4" id="hamburger"name="hamburger" type="button">
-            <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
-            <span class="hamburger-line transition duration-300 ease-in-out"></span>
-            <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+          <button
+            class="md:hidden py-3 px-4 mx-2 rounded-md block absolute right-4"
+            id="hamburger"
+            name="hamburger"
+            type="button"
+          >
+            <span
+              class="hamburger-line transition duration-300 ease-in-out origin-top-left"
+            ></span>
+            <span
+              class="hamburger-line transition duration-300 ease-in-out"
+            ></span>
+            <span
+              class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"
+            ></span>
           </button>
         </div>
         <!-- navbar-list -->
-        <ul class="mt-[338px] md:mt-0 md:flex md:items-center absolute md:static left-0 md:w-auto px-7 md:px-3 pl-7 md:pl-0 hidden rounded-lg shadow-md md:shadow-none bg-white md:bg-transparent"
-          id="nav-menu">
-          <li class="px-4 text-1xl text-black font-medium hover:bg-slate-200 active:hover:text-white active:bg-[#112B42] active:hover:500 p-3 rounded-md transition duration-100 mx-[2px] my-2 md:my-0">
+        <ul
+          class="mt-[338px] md:mt-0 md:flex md:items-center absolute md:static left-0 md:w-auto px-7 md:px-3 pl-7 md:pl-0 hidden rounded-lg shadow-md md:shadow-none bg-white md:bg-transparent"
+          id="nav-menu"
+        >
+          <li
+            class="px-4 text-1xl text-black font-medium hover:bg-slate-200 active:hover:text-white active:bg-[#112B42] active:hover:500 p-3 rounded-md transition duration-100 mx-[2px] my-2 md:my-0"
+          >
             <a href="./home.html">Home</a>
           </li>
-          <li class="px-4 text-1xl text-black font-medium hover:bg-slate-200 active:hover:text-white active:bg-[#112B42] active:hover:500 p-3 rounded-md transition duration-100 mx-[2px] my-2 md:my-0">
+          <li
+            class="px-4 text-1xl text-black font-medium hover:bg-slate-200 active:hover:text-white active:bg-[#112B42] active:hover:500 p-3 rounded-md transition duration-100 mx-[2px] my-2 md:my-0"
+          >
             <a href="./About.html">About</a>
           </li>
-          <li class="px-4 text-1xl text-black font-medium hover:bg-slate-200 active:hover:text-white active:bg-[#112B42] active:hover:500 p-3 rounded-md transition duration-100 mx-[2px] my-2 md:my-0">
+          <li
+            class="px-4 text-1xl text-black font-medium hover:bg-slate-200 active:hover:text-white active:bg-[#112B42] active:hover:500 p-3 rounded-md transition duration-100 mx-[2px] my-2 md:my-0"
+          >
             <a href="./skill.html">Skill</a>
           </li>
-          <li class="px-4 text-1xl text-black font-medium hover:bg-slate-200 active:hover:text-white active:bg-[#112B42] active:hover:500 p-3 rounded-md transition duration-100 mx-[2px] my-2 md:my-0">
+          <li
+            class="px-4 text-1xl text-black font-medium hover:bg-slate-200 active:hover:text-white active:bg-[#112B42] active:hover:500 p-3 rounded-md transition duration-100 mx-[2px] my-2 md:my-0"
+          >
             <a href="./project.html">Project</a>
           </li>
-          <li class="px-4 text-1xl text-black font-medium hover:bg-slate-200 active:hover:text-white active:bg-[#112B42] active:hover:500 p-3 rounded-md transition duration-100 mx-[2px] my-2 md:my-0">
+          <li
+            class="px-4 text-1xl text-black font-medium hover:bg-slate-200 active:hover:text-white active:bg-[#112B42] active:hover:500 p-3 rounded-md transition duration-100 mx-[2px] my-2 md:my-0"
+          >
             <a href="./Contactme.html">Contact Me</a>
           </li>
         </ul>
@@ -48,31 +76,52 @@
 
     <!-- skill section -->
     <section
-      class="pt-32 px-6 md:py-0 md:px-40 md:pt-40 bg-white min-h-screen h-[200vh]">
+      class="pt-32 px-6 md:px-40 md:pt-40 bg-white min-h-screen h-[200vh]"
+    >
       <div class="" data-aos="zoom-in" data-aos-duration="1000">
         <div class="">
-          <h1 class="font-bold text-5xl text-black absolute pl-2 -mt-10">My Skill.</h1>
-          <img src="/img/garis bawah biru.png" alt="" class="w-56 h-4 mb-8 mt-10"/>
-          <p class="text-slate-800 text-xl mb-12">Below are some of the programming languages and framework i can</p>
+          <h1 class="font-bold text-5xl text-black absolute pl-2 -mt-10">
+            My Skill.
+          </h1>
+          <img
+            src="/img/garis bawah biru.png"
+            alt=""
+            class="w-56 h-4 mb-8 mt-10"
+          />
+          <p class="text-slate-800 text-xl mb-12">
+            Below are some of the programming languages and framework i can
+          </p>
         </div>
-        <div class="grid grid-cols-3 grid-rows-2 gap-6 ">
-          <div class="h-80 transition duration-300 rounded-lg border border-slate-200 flex justify-center items-center shadow-lg hover:border-none hover:shadow-2xl hover:drop-shadow-xl">
-            <img src="/img/logos-html.svg" alt="" class="h-48"/>
+        <div class="grid grid-cols-2 md:grid-cols-3 grid-rows-2 gap-8 md:gap-8">
+          <div
+            class="h-64 md:h-80 transition duration-300 rounded-lg border border-slate-200 flex justify-center items-center shadow-lg hover:border-none hover:shadow-2xl hover:drop-shadow-xl"
+          >
+            <img src="/img/logos-html.svg" alt="" class="h-40 md:h-48" />
           </div>
-          <div class="h-80 transition duration-300 rounded-lg border border-slate-200 flex justify-center items-center shadow-lg hover:border-none hover:shadow-2xl hover:drop-shadow-xl">
-            <img src="/img/logos-css.svg" alt="" class="h-48"/>
+          <div
+            class="h-64 md:h-80 transition duration-300 rounded-lg border border-slate-200 flex justify-center items-center shadow-lg hover:border-none hover:shadow-2xl hover:drop-shadow-xl"
+          >
+            <img src="/img/logos-css.svg" alt="" class="h-40 md:h-48" />
           </div>
-          <div class="h-80 transition duration-300 rounded-lg border border-slate-200 flex justify-center items-center shadow-lg hover:border-none hover:shadow-2xl hover:drop-shadow-xl">
-            <img src="/img/logos-javascript.svg" alt="" class="h-48"/>
+          <div
+            class="h-64 md:h-80 transition duration-300 rounded-lg border border-slate-200 flex justify-center items-center shadow-lg hover:border-none hover:shadow-2xl hover:drop-shadow-xl"
+          >
+            <img src="/img/logos-javascript.svg" alt="" class="h-40 md:h-48" />
           </div>
-          <div class="h-80 transition duration-300 rounded-lg border border-slate-200 flex justify-center items-center shadow-lg hover:border-none hover:shadow-2xl hover:drop-shadow-xl ">
-            <img src="/img/logos-tailwind.svg" alt="" class="h-36"/>
+          <div
+            class="h-64 md:h-80 transition duration-300 rounded-lg border border-slate-200 flex justify-center items-center shadow-lg hover:border-none hover:shadow-2xl hover:drop-shadow-xl"
+          >
+            <img src="/img/logos-tailwind.svg" alt="" class="h-24 md:h-36" />
           </div>
-          <div class="h-80 transition duration-300 rounded-lg border border-slate-200 flex justify-center items-center shadow-lg hover:border-none hover:shadow-2xl hover:drop-shadow-xl">
-            <img src="" alt="" class="h-48"/>
+          <div
+            class="h-64 md:h-80 transition duration-300 rounded-lg border border-slate-200 flex justify-center items-center shadow-lg hover:border-none hover:shadow-2xl hover:drop-shadow-xl"
+          >
+            <img src="" alt="" class="h-40 md:h-48" />
           </div>
-          <div class="h-80 transition duration-300 rounded-lg border border-slate-200 flex justify-center items-center shadow-lg hover:border-none hover:shadow-2xl hover:drop-shadow-xl">
-            <img src="" alt="" class="h-48"/>
+          <div
+            class="h-64 md:h-80 transition duration-300 rounded-lg border border-slate-200 flex justify-center items-center shadow-lg hover:border-none hover:shadow-2xl hover:drop-shadow-xl"
+          >
+            <img src="" alt="" class="h-40 md:h-48" />
           </div>
         </div>
       </div>
